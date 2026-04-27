@@ -41,7 +41,11 @@ This scans the current directory, splits files into semantic chunks, and writes 
 engram query "how does authentication work"
 ```
 
-Returns the most relevant chunks from your indexed codebase.
+Returns the most relevant chunks from your indexed codebase. By default, returns the top 5 results — use `--limit` to adjust:
+
+```bash
+engram query "how does authentication work" --limit 10
+```
 
 ### Show manifest
 
