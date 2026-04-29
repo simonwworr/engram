@@ -41,7 +41,7 @@ This scans the current directory, splits files into semantic chunks, and writes 
 engram query "how does authentication work"
 ```
 
-Returns the most relevant chunks from your indexed codebase. By default, returns the top 5 results — use `--limit` to adjust:
+Returns the most relevant chunks from your indexed codebase. By default, returns the top 10 results — use `--limit` to adjust:
 
 ```bash
 engram query "how does authentication work" --limit 20
@@ -61,7 +61,7 @@ Prints the current `.engram/manifest.json` — a summary of all indexed files an
 engram clear
 ```
 
-Removing all chunks and resets the manifest.
+Removes all chunks and resets the manifest.
 
 ## Configuration
 
